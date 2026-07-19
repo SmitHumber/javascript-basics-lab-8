@@ -24,3 +24,11 @@ let {num1, num2} = number;
 
 console.log(num1);
 console.log(num2);
+
+
+let number1 = [1, 2, 3, 4, 5];
+let number2 = [6, 7, 8, 9, 10];
+
+let numberEqual = [...number1, ...number2];
+
+console.log(numberEqual);
