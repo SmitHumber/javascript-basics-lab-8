@@ -15,3 +15,12 @@ console.log(student.age);
 
 student.studentInfo();
 
+let number = {
+    num1: [85, 92],
+    num2: [78, 90]
+}
+
+let {num1, num2} = number;
+
+console.log(num1);
+console.log(num2);
