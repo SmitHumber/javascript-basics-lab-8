@@ -28,7 +28,9 @@ console.log(num2);
 
 let number1 = [1, 2, 3, 4, 5];
 let number2 = [6, 7, 8, 9, 10];
+let number3 = [11, 12, 13, 14, 15];
+let number4 = [16, 17, 18, 19, 20];
 
-let numberEqual = [...number1, ...number2];
+let numberEqual = [...number1, ...number2, ...number3, ...number4];
 
 console.log(numberEqual);
