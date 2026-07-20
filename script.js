@@ -1,3 +1,4 @@
+import data from './student.json' with {};
 
 let student = {
     name: "Smit",
@@ -34,3 +35,7 @@ let number4 = [16, 17, 18, 19, 20];
 let numberEqual = [...number1, ...number2, ...number3, ...number4];
 
 console.log(numberEqual);
+
+// json
+
+console.log(data.number);
