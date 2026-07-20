@@ -26,14 +26,9 @@ console.log(num1);
 console.log(num2);
 
 
-let studentCourse = ["CPAN 113", "CPAN 113", "CPAN 111"];
+let studentCourse1 = {a: "CPAN 133"};
+let studentCourse2 = {b: "CPAN 113"};
 
-let graduationYear = [...studentCourse];
+let graduationYear = { ...studentCourse1, ...studentCourse2};
 
-console.log(graduationYear)
-
-
-
-// json
-
-console.log(data.number);
+console.log(graduationYear);
